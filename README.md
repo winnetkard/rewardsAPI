@@ -17,7 +17,7 @@ You can make the following requests:
   
     POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
     Content-Type: application/json
-    { "points": 5000 }
+    { "points": ### }
     
     If you're succesfully able to spend points, the server will send a list of points that are deducted from each payer. 
     
