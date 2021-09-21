@@ -17,7 +17,7 @@ You can make the following requests:
     Content-Type: application/json
     { "points": 5000 }
     
-  3. Check balance by:
+  3. Check the current balance by:
   
     GET https://fetchrewardsbackendexercise.herokuapp.com/api/rewards/balance
     
