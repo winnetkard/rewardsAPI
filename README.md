@@ -6,13 +6,16 @@ This backend server is hosted on https://fetchrewardsbackendexercise.herokuapp.c
 You can make the following requests:
 
   1. Add transaction by:
+  
     POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
     Content-Type: application/json
     { "payer": "Payer", "points": ###, "timestamp": Dateformat }
+   
   2. Spend point by:
     POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
     Content-Type: application/json
     { "points": 5000 }
+    
   3. Check balance by:
     GET https://fetchrewardsbackendexercise.herokuapp.com/api/rewards/balance
     
