@@ -11,6 +11,7 @@ You can make the following requests:
     Content-Type: application/json
     { "payer": "Payer", "points": ###, "timestamp": DateinDateformat }
     
+    
     If you're successfully able to add a transaction, the server will send a list of transactions that can be used. 
    
   2. Spend points by:
