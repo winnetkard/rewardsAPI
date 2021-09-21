@@ -28,6 +28,7 @@ You can make the following requests:
     If you're succesfully able to check the current balance, the server will send a list of each payer's balance.
     
 All the examples that were used in the exercise instructions pdf can be found in https://github.com/winnetkard/rewardsAPI/tree/main/requests
+I have commented throughout index.js on how the server process requests https://github.com/winnetkard/rewardsAPI/blob/main/index.js 
 
 Please contact winnetkard@gmail.com if you have any issues with accessing the server
 
