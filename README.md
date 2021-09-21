@@ -9,7 +9,7 @@ You can make the following requests:
   
     POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
     Content-Type: application/json
-    { "payer": "Payer", "points": ###, "timestamp": Dateformat }
+    { "payer": "Payer", "points": ###, "timestamp": DateinDateformat }
    
   2. Spend point by:
   
