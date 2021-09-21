@@ -23,6 +23,6 @@ You can make the following requests:
     
 All the examples that were used in the exercise instructions pdf can be found in https://github.com/winnetkard/rewardsAPI/tree/main/requests
 
-Please contact winnetkard@gmail.com if you're having issues with the server
+Please contact winnetkard@gmail.com if you have any issues with accessing the server
 
 Thanks!
