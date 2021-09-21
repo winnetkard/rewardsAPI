@@ -1,0 +1,4 @@
+POST http://localhost:3001/api/rewards
+Content-Type: application/json
+
+{ "payer": "MILLER COORS", "points": 10000, "timestamp": "2020-11-01T14:00:00Z" }

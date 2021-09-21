@@ -1,0 +1,1 @@
+GET https://fetchrewardsbackendexercise.herokuapp.com/api/rewards/balance

@@ -1,0 +1,7 @@
+POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
+Content-Type: application/json
+
+{
+  "points": 5000
+}
+

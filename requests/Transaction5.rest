@@ -1,0 +1,4 @@
+POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
+Content-Type: application/json
+
+{ "payer": "DANNON", "points": 300, "timestamp": "2020-10-31T10:00:00Z" }
