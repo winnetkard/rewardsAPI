@@ -5,7 +5,7 @@ This backend server is hosted on https://fetchrewardsbackendexercise.herokuapp.c
 
 You can make the following requests:
 
-1. Add a transaction by:
+  1. Add a transaction by:
   
     POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
     Content-Type: application/json
@@ -13,7 +13,7 @@ You can make the following requests:
     
     If you're successfully able to add a transaction, the server will send a list of transactions that can be used. 
    
-2. Spend points by:
+  2. Spend points by:
   
     POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
     Content-Type: application/json
@@ -21,7 +21,7 @@ You can make the following requests:
     
     If you're succesfully able to spend points, the server will send a list of points that are deducted from each payer. 
     
-3. Check the current balance by:
+  3. Check the current balance by:
   
     GET https://fetchrewardsbackendexercise.herokuapp.com/api/rewards/balance
     
