@@ -19,7 +19,7 @@ You can make the following requests:
     Content-Type: application/json
     { "points": ### }
     
-    If you're succesfully able to spend points, the server will send a list of points that are deducted from each payer. 
+    If you're succesfully able to spend points, the server will send a list of points that were deducted from each payer. 
     
   3. Check the current balance by:
   
