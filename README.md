@@ -11,7 +11,8 @@ You can make the following requests:
     Content-Type: application/json
     { "payer": "Payer", "points": ###, "timestamp": DateinDateformat }
     
-    If you're successfully able to add a transaction, the server will send a list of transactions that can be used. 
+    If you're successfully able to add a transaction, the server will send a list of transactions that can be used.
+    Please look at transactions(1-5).rest in rewardsAPI/requests for specific examples
    
   2. Spend points by:
   
@@ -20,12 +21,14 @@ You can make the following requests:
     { "points": ### }
     
     If you're succesfully able to spend points, the server will send a list of points that were deducted from each payer. 
+    Please look at Spend.rest in rewardsAPI/requests for a specific example. 
     
   3. Check the current balance by:
   
     GET https://fetchrewardsbackendexercise.herokuapp.com/api/rewards/balance
     
     If you're succesfully able to check the current balance, the server will send a list of each payer's balance.
+    Please look at Balance.rest in rewardsAPI/requests for a specific example
     
 All the examples that were used in the exercise instructions pdf can be found in rewardsAPI/requests https://github.com/winnetkard/rewardsAPI/tree/main/requests
 
