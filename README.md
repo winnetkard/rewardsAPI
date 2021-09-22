@@ -9,9 +9,11 @@ You can make the following requests:
   
     POST https://fetchrewardsbackendexercise.herokuapp.com/api/rewards
     Content-Type: application/json
-    { "payer": "Payer", "points": ###, "timestamp": DateinDateformat }
+    { "payer": "Payer", "points": ###, "timestamp": Date }
     
     If you're successfully able to add a transaction, the server will send a list of transactions that can be used.
+    
+    "points" need to be an integer (this can be changed) and Date needs to be in ISO format (this can also be changed). 
     
     Please look at transactions(1-5).rest in rewardsAPI/requests for specific examples
    
@@ -22,6 +24,8 @@ You can make the following requests:
     { "points": ### }
     
     If you're succesfully able to spend points, the server will send a list of points that were deducted from each payer. 
+    
+    "points" need to be an integer (this can be changed)
     
     Please look at Spend.rest in rewardsAPI/requests for a specific example. 
     
